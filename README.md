@@ -1,3 +1,3 @@
-# I 18 n react #
+# I18n react #
 
-I 18 n react
+I18n react
