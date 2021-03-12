@@ -5,9 +5,11 @@
 **/
 
 import { ConfigManager } from '@txo/config-manager'
+import { LanguageDetectorModule } from 'i18next'
 
 export type Config = {
   fallbackLanguage: string,
+  languageDetector: LanguageDetectorModule,
   loadTranslation: (language: string) => Record<string, unknown> | undefined,
   placeholderTranslationMap: Record<string, string>,
   displayLocalizationIssues: boolean,

@@ -8,7 +8,6 @@
 import i18next, { TFunction } from 'i18next'
 // import Backend from 'i18next-xhr-backend'
 import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
 import numbro from 'numbro'
 import sk from 'numbro/dist/languages/sk-SK.min'
 import enGb from 'numbro/dist/languages/en-GB.min'
@@ -63,7 +62,7 @@ export const i18nInit = async (): Promise<TFunction> => {
 
   const promise = i18next
   // .use(Backend)
-    .use(LanguageDetector)
+    .use(configManager.config.languageDetector)
     .use(initReactI18next)
     .init({
       fallbackLng: configManager.config.fallbackLanguage,
