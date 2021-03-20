@@ -94,11 +94,11 @@ export const i18nInit = async (): Promise<TFunction> => {
         { displayLocalizationIssues: configManager.config.displayLocalizationIssues },
       ),
     })
-    // TODO: figure out how to pass locale to numbro
-    // .then(() => {
-    //   const locale = i18nManager.getLocale()
-    //   numbro.setLanguage(locale)
-    // })
+    .then((data) => {
+      const locale = i18nManager.getLocale()
+      numbro.setLanguage(locale)
+      return data
+    })
   loadLanguageResource(configManager.config.fallbackLanguage)
   return promise
 }
