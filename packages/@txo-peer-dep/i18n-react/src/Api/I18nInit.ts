@@ -1,5 +1,5 @@
 /**
- * @Author: Erik Slov√°k <erik.slovak@technologystudio.sk>
+ * @Author: Erik Slov†k <erik.slovak@technologystudio.sk>
  * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
  * @Date: 2019-04-10T10:04:00+02:00
  * @Copyright: Technology Studio
@@ -11,7 +11,6 @@ import { initReactI18next } from 'react-i18next'
 import numbro from 'numbro'
 import sk from 'numbro/dist/languages/sk-SK.min'
 import enGb from 'numbro/dist/languages/en-GB.min'
-import hu from 'numbro/dist/languages/hu-HU.min'
 import { is } from '@txo/types'
 // import { Log } from '@txo/log'
 
@@ -44,7 +43,6 @@ export const i18nInit = async (): Promise<TFunction> => {
 
   numbro.registerLanguage(sk)
   numbro.registerLanguage(enGb)
-  numbro.registerLanguage(hu)
 
   const originalT = i18next.t
   i18next.t = function (...arg: Parameters<typeof originalT>) {
