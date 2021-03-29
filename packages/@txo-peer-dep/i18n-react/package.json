@@ -29,7 +29,6 @@
   "dependencies": {
     "@txo/log": "^1.0.0",
     "@txo/types": "^1.1.0",
-    "i18next-browser-languagedetector": "^6.0.1",
     "numbro": "^2.3.2"
   },
   "peerDependencies": {

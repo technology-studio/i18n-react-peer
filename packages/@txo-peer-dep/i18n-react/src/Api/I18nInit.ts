@@ -1,5 +1,5 @@
 /**
- * @Author: Erik Slov√°k <erik.slovak@technologystudio.sk>
+ * @Author: Erik Slov†k <erik.slovak@technologystudio.sk>
  * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
  * @Date: 2019-04-10T10:04:00+02:00
  * @Copyright: Technology Studio
@@ -8,8 +8,9 @@
 import i18next, { TFunction } from 'i18next'
 // import Backend from 'i18next-xhr-backend'
 import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
 import numbro from 'numbro'
+import sk from 'numbro/dist/languages/sk-SK.min'
+import enGb from 'numbro/dist/languages/en-GB.min'
 import { is } from '@txo/types'
 // import { Log } from '@txo/log'
 
@@ -34,10 +35,14 @@ const loadLanguageResource = (locale: string): void => {
     'translation',
     configManager.config.loadTranslation(language),
   )
+  numbro.setLanguage(locale)
 }
 
 export const i18nInit = async (): Promise<TFunction> => {
   i18nManager.subscribe(loadLanguageResource)
+
+  numbro.registerLanguage(sk)
+  numbro.registerLanguage(enGb)
 
   const originalT = i18next.t
   i18next.t = function (...arg: Parameters<typeof originalT>) {
@@ -55,7 +60,7 @@ export const i18nInit = async (): Promise<TFunction> => {
 
   const promise = i18next
   // .use(Backend)
-    .use(LanguageDetector)
+    .use(configManager.config.languageDetector)
     .use(initReactI18next)
     .init({
       fallbackLng: configManager.config.fallbackLanguage,
@@ -86,6 +91,11 @@ export const i18nInit = async (): Promise<TFunction> => {
         configManager.config.placeholderTranslationMap,
         { displayLocalizationIssues: configManager.config.displayLocalizationIssues },
       ),
+    })
+    .then((data) => {
+      const locale = i18nManager.getLocale()
+      numbro.setLanguage(locale)
+      return data
     })
   loadLanguageResource(configManager.config.fallbackLanguage)
   return promise
