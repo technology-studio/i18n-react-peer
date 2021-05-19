@@ -15,5 +15,5 @@ export type Config = {
   displayLocalizationIssues: boolean,
 }
 
-// @ts-expect-error TODO: we need to create proxy receives list of props that are mandatory and if the value has not been initialized before accessed it will throw an error.
+// TODO: we need to create proxy receives list of props that are mandatory and if the value has not been initialized before accessed it will throw an error.
 export const configManager: ConfigManager<Config> = new ConfigManager<Config>({})
