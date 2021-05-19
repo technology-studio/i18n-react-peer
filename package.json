@@ -28,12 +28,6 @@
     "packages/@txo/*",
     "packages/@txo-peer-dep/*"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run git-hook",
-      "pre-push": "yarn run git-hook"
-    }
-  },
   "dependencies": {},
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.0",
@@ -67,15 +61,11 @@
     "ts-jest": "^26.5.6",
     "typescript": "^4.2.4"
   },
-  "resolutions": {
-    "@types/react": "17.0.6"
-  },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
     "testMatch": [
-      "<rootDir>/__tests__/**/*.ts",
-      "**/?(*.)(spec|test).ts?(x)"
+      "<rootDir>/__tests__/**/?(*.)(spec|test).ts?(x)"
     ],
     "transformIgnorePatterns": [
       "/node_modules/(?!@txo).+\\.js$"
@@ -84,6 +74,7 @@
       "/node_modules/",
       "<rootDir>/__tests__/Config/",
       "<rootDir>/__tests__/Setup.ts",
+      "<rootDir>/__tests__/Data.ts",
       "<rootDir>/__tests__/Utils/"
     ],
     "setupFiles": [
