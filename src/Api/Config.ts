@@ -5,7 +5,7 @@
 **/
 
 import { ConfigManager } from '@txo/config-manager'
-import { LanguageDetectorModule } from 'i18next'
+import type { LanguageDetectorModule } from 'i18next'
 
 export type Config = {
   fallbackLanguage: string,
