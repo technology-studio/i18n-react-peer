@@ -48,7 +48,7 @@ const replaceUnderscoresAndPunctuation = (
 export const parseMissingKey = (
   key: string,
   placeholderTranslationMap: Record<string, string>,
-  { displayLocalizationIssues }: { displayLocalizationIssues: boolean},
+  { displayLocalizationIssues }: { displayLocalizationIssues: boolean },
 ): string => {
   let handledKey = key
   log.debug('parseMissingKey', { key })

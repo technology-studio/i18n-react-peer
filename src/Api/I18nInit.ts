@@ -5,7 +5,8 @@
  * @Copyright: Technology Studio
 **/
 
-import i18next, { TFunction } from 'i18next'
+import type { TFunction } from 'i18next'
+import i18next from 'i18next'
 // import Backend from 'i18next-xhr-backend'
 import { initReactI18next } from 'react-i18next'
 import numbro from 'numbro'
@@ -78,9 +79,6 @@ export const i18nInit = async (): Promise<TFunction> => {
         escapeValue: false, // not needed for react!!
       },
 
-      react: {
-        wait: true,
-      },
       parseMissingKeyHandler: (key: string) => parseMissingKey(
         key,
         configManager.config.placeholderTranslationMap,
