@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.2...v3.0.3) (2022-10-24)
+
+
+### Bug fixes
+
+* add missing changes from migration ([#26](https://github.com/technology-studio/i18n-react-peer/issues/26)) ([a35f8ec](https://github.com/technology-studio/i18n-react-peer/commit/a35f8ec4b3412d3706e5fc257237e76bc43398f9))
+
 ## [3.0.2](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.1...v3.0.2) (2022-10-24)
 
 
