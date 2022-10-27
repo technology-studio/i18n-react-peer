@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.3...v3.0.4) (2022-10-27)
+
+
+### Bug fixes
+
+* fix package.json ([#53](https://github.com/technology-studio/i18n-react-peer/issues/53)) ([b035197](https://github.com/technology-studio/i18n-react-peer/commit/b03519716a4a043da94e592a8975958046c1a941))
+
 ## [3.0.3](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.2...v3.0.3) (2022-10-24)
 
 
