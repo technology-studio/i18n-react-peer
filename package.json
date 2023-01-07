@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "i18next": "^22.4.8",
-    "react-i18next": "^12.1.1"
+    "react-i18next": "^12.1.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.0",
@@ -74,7 +74,7 @@
     "lint-staged": "^13.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^12.1.1",
+    "react-i18next": "^12.1.4",
     "redux-saga": "^1.2.2",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.5",
