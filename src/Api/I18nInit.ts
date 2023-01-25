@@ -80,6 +80,7 @@ export const i18nInit = async (): Promise<TFunction> => {
       interpolation: {
         escapeValue: false, // not needed for react!!
       },
+      compatibilityJSON: 'v3',
 
       parseMissingKeyHandler: (key: string) => parseMissingKey(
         key,
