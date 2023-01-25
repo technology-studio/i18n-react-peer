@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.4...v3.0.5) (2023-01-25)
+
+
+### Bug fixes
+
+* use compatibility json v3 i18next setting ([#179](https://github.com/technology-studio/i18n-react-peer/issues/179)) ([b8d1ba2](https://github.com/technology-studio/i18n-react-peer/commit/b8d1ba2729f3bbb4623341334602ccd08ebbf9a3))
+
 ## [3.0.4](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.3...v3.0.4) (2022-10-27)
 
 
