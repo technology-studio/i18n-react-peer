@@ -1,3 +1,10 @@
+## [3.0.6](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.5...v3.0.6) (2023-01-31)
+
+
+### Bug fixes
+
+* remove unnecessary `compatibilityJSON` setting ([#182](https://github.com/technology-studio/i18n-react-peer/issues/182)) ([2966b61](https://github.com/technology-studio/i18n-react-peer/commit/2966b61f9acdceae545c50c3e8303054a4b500ed))
+
 ## [3.0.5](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.4...v3.0.5) (2023-01-25)
 
 
