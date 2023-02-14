@@ -25,7 +25,7 @@ export class I18nManager {
   }
 
   emitLocaleChanged = (nextLocale: string): void => {
-    this.subscriberList.forEach(onChange => onChange(nextLocale))
+    this.subscriberList.forEach(onChange => { onChange(nextLocale) })
   }
 
   getLocale (): string {
