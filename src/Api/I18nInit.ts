@@ -93,5 +93,5 @@ export const i18nInit = async (): Promise<TFunction> => {
       return data
     })
   loadLanguageResource(configManager.config.fallbackLanguage)
-  return promise
+  return await promise
 }

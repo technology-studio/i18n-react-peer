@@ -5,5 +5,6 @@
  * @Copyright: Technology Studio
 **/
 
-// eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
-export const parseLanguage = (locale: string | null): string | null => locale?.substring(0, 2) || null
+export const parseLanguage = (locale: string | null): string | null => (locale != null && locale !== '')
+  ? locale.substring(0, 2)
+  : null
