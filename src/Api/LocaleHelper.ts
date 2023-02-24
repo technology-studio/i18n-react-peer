@@ -5,6 +5,6 @@
  * @Copyright: Technology Studio
 **/
 
-export const parseLanguage = (locale: string | null): string | null => (locale != null)
+export const parseLanguage = (locale: string | null): string | null => (locale != null && locale !== '')
   ? locale.substring(0, 2)
   : null
