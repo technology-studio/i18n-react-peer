@@ -6,5 +6,5 @@
 **/
 
 export const parseLanguage = (locale: string | null): string | null => (locale != null)
-  ? locale?.substring(0, 2)
+  ? locale.substring(0, 2)
   : null
