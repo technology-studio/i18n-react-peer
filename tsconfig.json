@@ -6,7 +6,8 @@
     "outDir": "./lib",
     "rootDir": "./src",
     "paths": {
-    }
+    },
+    "skipLibCheck": true
   },
   "include": [
     "src"
