@@ -1,3 +1,10 @@
+## [3.0.18](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.17...v3.0.18) (2023-06-28)
+
+
+### Bug fixes
+
+* remove skip lib check workaround for i18n packages ([#363](https://github.com/technology-studio/i18n-react-peer/issues/363)) ([3121386](https://github.com/technology-studio/i18n-react-peer/commit/3121386f9ed6b48279d12c6a2bb861aaf23f6bf6))
+
 ## [3.0.17](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.16...v3.0.17) (2023-06-27)
 
 
