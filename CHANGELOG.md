@@ -1,3 +1,10 @@
+## [3.0.30](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.29...v3.0.30) (2023-07-23)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/log to ^2.0.8 ([5672552](https://github.com/technology-studio/i18n-react-peer/commit/5672552b344ef2ff3bca96f984c0c7aa76191896))
+
 ## [3.0.29](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.28...v3.0.29) (2023-07-22)
 
 
