@@ -1,3 +1,10 @@
+## [3.0.49](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.48...v3.0.49) (2023-08-30)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/types to ^1.7.0 ([7020f33](https://github.com/technology-studio/i18n-react-peer/commit/7020f3307e356d2a10abf3157ec049910357cdb6))
+
 ## [3.0.48](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.47...v3.0.48) (2023-08-29)
 
 
