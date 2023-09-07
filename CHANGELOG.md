@@ -1,3 +1,10 @@
+## [3.0.53](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.52...v3.0.53) (2023-09-07)
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.5.0 ([d3cf109](https://github.com/technology-studio/i18n-react-peer/commit/d3cf109c02e8a9299495879fe36881a6bb6702e1))
+
 ## [3.0.52](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.51...v3.0.52) (2023-09-05)
 
 
