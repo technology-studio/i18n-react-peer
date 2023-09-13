@@ -7158,10 +7158,10 @@ npm-bundled@^3.0.0:
   dependencies:
     npm-normalize-package-bin "^3.0.0"
 
-npm-check-updates@^16.13.4:
-  version "16.13.4"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.13.4.tgz#e61c14c7c901cb3251d940067a41ebe18db82227"
-  integrity sha512-f6WWm9qwB2t9vb0/W47bTfsITaXN6fZW9KUhn8XvRUgnD+CFW76d3varlkC0M3X8GwtEM+i9eaZ+4ZPCOileeg==
+npm-check-updates@^16.14.1:
+  version "16.14.1"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.14.1.tgz#6792508546625ef562beda11d17a3474488129d5"
+  integrity sha512-mu57Ch3JUiB7Wc5Hc9laRDJYBulyQXOvi1NCJAlnQJrS21hMkbt01Y3OSS+kAfHcp8G7uansc9RJlNRgSLzpPA==
   dependencies:
     chalk "^5.3.0"
     cli-table3 "^0.6.3"
@@ -7191,6 +7191,7 @@ npm-check-updates@^16.13.4:
     semver-utils "^1.1.4"
     source-map-support "^0.5.21"
     spawn-please "^2.0.1"
+    strip-ansi "^7.1.0"
     strip-json-comments "^5.0.1"
     untildify "^4.0.0"
     update-notifier "^6.0.2"
@@ -8960,6 +8961,13 @@ strip-ansi@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-7.0.1.tgz#61740a08ce36b61e50e65653f07060d000975fb2"
   integrity sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==
+  dependencies:
+    ansi-regex "^6.0.1"
+
+strip-ansi@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-7.1.0.tgz#d5b6568ca689d8561370b0707685d22434faff45"
+  integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
   dependencies:
     ansi-regex "^6.0.1"
 
