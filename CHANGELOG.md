@@ -1,3 +1,10 @@
+## [3.0.55](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.54...v3.0.55) (2023-09-20)
+
+
+### Bug fixes
+
+* recreate yarn.lock ([#518](https://github.com/technology-studio/i18n-react-peer/issues/518)) ([144db60](https://github.com/technology-studio/i18n-react-peer/commit/144db601a82d043c5af4fb706c0ac2cef1e4b0b6))
+
 ## [3.0.54](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.53...v3.0.54) (2023-09-08)
 
 
