@@ -48,8 +48,8 @@
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^1.0.2",
     "@types/jest": "^29.5.8",
-    "@types/react": "^18.2.36",
-    "@types/react-dom": "^18.2.14",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "concurrently": "^8.2.2",
@@ -79,6 +79,6 @@
     "typescript": "^5.2.2"
   },
   "resolutions": {
-    "@types/react": "^18.2.36"
+    "@types/react": "^18.2.37"
   }
 }
