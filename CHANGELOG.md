@@ -1,3 +1,10 @@
+## [3.0.62](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.61...v3.0.62) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/log to ^2.0.14 ([d653717](https://github.com/technology-studio/i18n-react-peer/commit/d6537171aec2a1dd346750619bc7ab67d758aa29))
+
 ## [3.0.61](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.60...v3.0.61) (2023-11-11)
 
 
