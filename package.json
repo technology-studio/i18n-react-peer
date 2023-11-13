@@ -1,6 +1,6 @@
 {
   "name": "@txo-peer-dep/i18n-react",
-  "version": "3.0.58",
+  "version": "3.0.64",
   "description": "Technology Studio - I18n react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -34,17 +34,17 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "dependencies": {
-    "@txo/log": "^2.0.13",
+    "@txo/log": "^2.0.14",
     "@txo/types": "^1.7.0",
     "numbro": "^2.4.0"
   },
   "peerDependencies": {
-    "i18next": "^23.6.0",
-    "react-i18next": "^13.3.1"
+    "i18next": "^23.7.6",
+    "react-i18next": "^13.4.0"
   },
   "devDependencies": {
-    "@txo-peer-dep/log": "^4.0.2",
-    "@txo/commitlint": "^1.0.5",
+    "@txo-peer-dep/log": "^4.0.3",
+    "@txo/commitlint": "^1.0.6",
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^1.0.2",
     "@types/jest": "^29.5.8",
@@ -53,13 +53,13 @@
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript-react": "^2.0.1",
     "husky": "^8.0.3",
-    "i18next": "^23.6.0",
+    "i18next": "^23.7.6",
     "jest": "^29.7.0",
-    "lint-staged": "^15.0.2",
+    "lint-staged": "^15.1.0",
     "npm-check-updates": "^16.14.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^13.3.1",
+    "react-i18next": "^13.4.0",
     "redux-saga": "^1.2.3",
     "rimraf": "^5.0.5",
     "ts-jest": "^29.1.1",

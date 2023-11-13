@@ -1,3 +1,45 @@
+## [3.0.64](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.63...v3.0.64) (2023-11-13)
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.7.6 ([9f12e00](https://github.com/technology-studio/i18n-react-peer/commit/9f12e00b268219a2fb14508d798f1a03591403a8))
+
+## [3.0.63](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.62...v3.0.63) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.7.3 ([9baeeb0](https://github.com/technology-studio/i18n-react-peer/commit/9baeeb014e415312ad4886ccc6a47a1d18ec0eea))
+
+## [3.0.62](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.61...v3.0.62) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/log to ^2.0.14 ([d653717](https://github.com/technology-studio/i18n-react-peer/commit/d6537171aec2a1dd346750619bc7ab67d758aa29))
+
+## [3.0.61](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.60...v3.0.61) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency react-i18next to ^13.4.0 ([94f9b40](https://github.com/technology-studio/i18n-react-peer/commit/94f9b40f8b93e99b89297d87cf62e8d02ad82f28))
+
+## [3.0.60](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.59...v3.0.60) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.7.2 ([2f1983f](https://github.com/technology-studio/i18n-react-peer/commit/2f1983ff04b35478c93a0b85176ed4dfa1ecbab7))
+
+## [3.0.59](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.58...v3.0.59) (2023-11-10)
+
+
+### Bug fixes
+
+* **deps:** update dependency react-i18next to ^13.3.2 ([ff40176](https://github.com/technology-studio/i18n-react-peer/commit/ff40176f071459a7d1995955382d8a184eee7666))
+
 ## [3.0.58](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.57...v3.0.58) (2023-10-18)
 
 
