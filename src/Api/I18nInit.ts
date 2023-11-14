@@ -41,22 +41,6 @@ const loadLanguageResource = (locale: string): void => {
 export const i18nInit = async (): Promise<TFunction> => {
   i18nManager.subscribe(loadLanguageResource)
 
-  const originalT = i18next.t
-  i18next.t = function (...arg: Parameters<typeof originalT>) {
-    const translation = originalT(...arg)
-    return typeof translation === 'string'
-      ? configManager.config.displayLocalizationIssues
-        ? translation
-        : translation?.startsWith('#')
-          ? translation.substring(1)
-          : translation
-      : translation
-  } as TFunction
-
-  i18next.toNumber = (number: number, format: Record<string, unknown>) => (
-    numbro(number).format(format)
-  )
-
   const promise = i18next
   // .use(Backend)
     .use(configManager.config.languageDetector)
