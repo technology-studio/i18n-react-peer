@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.65...v4.0.0) (2023-11-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Manual package injection requirements
+
+### Features
+
+* move injection of `t` function ([#603](https://github.com/technology-studio/i18n-react-peer/issues/603)) ([d444cef](https://github.com/technology-studio/i18n-react-peer/commit/d444cef22870d81e7a29d5dd4fd80a6063b4c311))
+
 ## [3.0.65](https://github.com/technology-studio/i18n-react-peer/compare/v3.0.64...v3.0.65) (2023-11-13)
 
 
