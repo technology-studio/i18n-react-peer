@@ -1,6 +1,6 @@
 {
   "name": "@txo-peer-dep/i18n-react",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Technology Studio - I18n react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -40,11 +40,11 @@
   },
   "peerDependencies": {
     "i18next": "^23.7.6",
-    "react-i18next": "^13.4.1"
+    "react-i18next": "^13.5.0"
   },
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.3",
-    "@txo/commitlint": "^1.0.6",
+    "@txo/commitlint": "^1.0.7",
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^1.0.2",
     "@txo/tsconfig": "^1.1.1",
@@ -52,15 +52,15 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "concurrently": "^8.2.2",
-    "eslint-config-txo-typescript-react": "^2.0.5",
+    "eslint-config-txo-typescript-react": "^2.0.7",
     "husky": "^8.0.3",
     "i18next": "^23.7.6",
     "jest": "^29.7.0",
     "lint-staged": "^15.1.0",
-    "npm-check-updates": "^16.14.6",
+    "npm-check-updates": "^16.14.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^13.4.1",
+    "react-i18next": "^13.5.0",
     "redux-saga": "^1.2.3",
     "rimraf": "^5.0.5",
     "ts-jest": "^29.1.1",
