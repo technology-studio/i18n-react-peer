@@ -1,11 +1,12 @@
-import * as i18next from 'i18next'
+import i18next, { type TFunction } from 'i18next'
 import numbro from 'numbro'
 
 import { configManager } from './Config'
 
+// eslint-disable-next-line import/no-named-as-default-member
 const originalT = i18next.t
-// @ts-expect-error - we are injecting t function
-// eslint-disable-next-line no-import-assign, import/namespace
+
+// eslint-disable-next-line import/no-named-as-default-member
 i18next.t = function (...arg: Parameters<typeof originalT>) {
   const translation = originalT(...arg)
   return typeof translation === 'string'
@@ -15,10 +16,8 @@ i18next.t = function (...arg: Parameters<typeof originalT>) {
         ? translation.substring(1)
         : translation
     : translation
-} as i18next.TFunction
+} as TFunction
 
-// @ts-expect-error - we are injecting toNumber function
-// eslint-disable-next-line no-import-assign, import/namespace
 i18next.toNumber = (number: number, format: Record<string, unknown>) => (
   numbro(number).format(format)
 )
