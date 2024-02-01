@@ -1,3 +1,10 @@
+## [4.0.20](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.19...v4.0.20) (2024-02-01)
+
+
+### Bug fixes
+
+* change import to fix crash when injecting ([#686](https://github.com/technology-studio/i18n-react-peer/issues/686)) ([e4a06be](https://github.com/technology-studio/i18n-react-peer/commit/e4a06bee9acecc3b128521526ac429cfda0fabf7))
+
 ## [4.0.19](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.18...v4.0.19) (2024-01-31)
 
 
