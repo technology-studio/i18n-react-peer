@@ -50,7 +50,7 @@
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.2.55",
-    "@types/react-dom": "^18.2.18",
+    "@types/react-dom": "^18.2.19",
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript-react": "^2.0.35",
     "husky": "^8.0.3",
