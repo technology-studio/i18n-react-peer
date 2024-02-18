@@ -1,3 +1,10 @@
+## [4.0.24](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.23...v4.0.24) (2024-02-18)
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.9.0 ([b469857](https://github.com/technology-studio/i18n-react-peer/commit/b46985796c4d1c2059587780da68a8f7ec1386e9))
+
 ## [4.0.23](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.22...v4.0.23) (2024-02-17)
 
 
