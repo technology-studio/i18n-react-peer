@@ -1,3 +1,10 @@
+## [4.0.28](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.27...v4.0.28) (2024-04-04)
+
+
+### Bug fixes
+
+* **deps:** update dependency numbro to ^2.5.0 ([5a04112](https://github.com/technology-studio/i18n-react-peer/commit/5a041124b6b5a954ec1c3672faee086e5a59e540))
+
 ## [4.0.27](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.26...v4.0.27) (2024-03-08)
 
 
