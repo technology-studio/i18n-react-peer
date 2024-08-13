@@ -1,3 +1,15 @@
+## [4.0.41](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.40...v4.0.41) (2024-08-13)
+
+
+### CI
+
+* add lint command for CI ([#834](https://github.com/technology-studio/i18n-react-peer/issues/834)) ([5bc8f21](https://github.com/technology-studio/i18n-react-peer/commit/5bc8f21a01f44758a5ab14e4b8ce966c431be049))
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.12.3 ([8d56e7c](https://github.com/technology-studio/i18n-react-peer/commit/8d56e7c474e7679d88f0f31bedbe45e25ec2dbe2))
+
 ## [4.0.40](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.39...v4.0.40) (2024-08-07)
 
 
