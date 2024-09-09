@@ -1,3 +1,16 @@
+## [4.0.45](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.44...v4.0.45) (2024-09-09)
+
+
+### CI
+
+* rename workflows ([#853](https://github.com/technology-studio/i18n-react-peer/issues/853)) ([7102099](https://github.com/technology-studio/i18n-react-peer/commit/71020999a564ae7bc912c7a2576b47565d5432da))
+* update URL for code-quality ([#845](https://github.com/technology-studio/i18n-react-peer/issues/845)) ([427320a](https://github.com/technology-studio/i18n-react-peer/commit/427320a43e67d1aae54293c3edd6ccfb3b1f5be6))
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.15.0 ([289d1a3](https://github.com/technology-studio/i18n-react-peer/commit/289d1a3d53f9b54d5ca7e09b8b0030720433e449))
+
 ## [4.0.44](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.43...v4.0.44) (2024-08-19)
 
 
