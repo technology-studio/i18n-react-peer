@@ -1,3 +1,16 @@
+## [4.0.58](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.57...v4.0.58) (2024-11-19)
+
+
+### CI
+
+* add synchronize to PR workflow ([#908](https://github.com/technology-studio/i18n-react-peer/issues/908)) ([e5177bd](https://github.com/technology-studio/i18n-react-peer/commit/e5177bd3da6ae3ef622d864fa2c22136c6d7bc49))
+* update pr and release workflows ([#906](https://github.com/technology-studio/i18n-react-peer/issues/906)) ([56c9ac8](https://github.com/technology-studio/i18n-react-peer/commit/56c9ac85c012c8a8d6e073be120c61c312af19b6))
+
+
+### Bug fixes
+
+* **deps:** update dependency i18next to ^23.16.6 ([#912](https://github.com/technology-studio/i18n-react-peer/issues/912)) ([fb1492e](https://github.com/technology-studio/i18n-react-peer/commit/fb1492e66b7b6a4b9f7301b12fdc85acebbbb002))
+
 ## [4.0.57](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.56...v4.0.57) (2024-11-08)
 
 
