@@ -42,7 +42,7 @@
   },
   "peerDependencies": {
     "i18next": "^23.16.8",
-    "react-i18next": "^15.1.3"
+    "react-i18next": "^15.1.4"
   },
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.4",
@@ -52,7 +52,7 @@
     "@txo/tsconfig-cjs": "^2.0.0",
     "@types/jest": "^29.5.14",
     "@types/react": "^18.3.14",
-    "@types/react-dom": "^18.3.2",
+    "@types/react-dom": "^18.3.3",
     "concurrently": "^9.1.0",
     "eslint-config-txo-typescript-react": "^2.0.82",
     "husky": "^9.1.7",
@@ -62,7 +62,7 @@
     "npm-check-updates": "^17.1.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-i18next": "^15.1.3",
+    "react-i18next": "^15.1.4",
     "redux-saga": "^1.3.0",
     "rimraf": "^6.0.1",
     "ts-jest": "^29.2.5",
