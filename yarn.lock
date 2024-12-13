@@ -1370,7 +1370,7 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@stylistic/eslint-plugin@^2.12.0":
+"@stylistic/eslint-plugin@^2.12.1":
   version "2.12.1"
   resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin/-/eslint-plugin-2.12.1.tgz#e341beb4e4315084d8be20bceeeda7d8a46f079f"
   integrity sha512-fubZKIHSPuo07FgRTn6S4Nl0uXPRPYVNpyZzIDGfp7Fny6JjNus6kReLD7NI380JXi4HtUTSOZ34LBuNPO1XLQ==
@@ -3091,12 +3091,12 @@ eslint-config-love@^110.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.15.0"
 
-eslint-config-txo-package-react@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-react/-/eslint-config-txo-package-react-1.0.6.tgz#e57cadb48ae3ad9ee6939031f9cdd1390304f02f"
-  integrity sha512-6287DUbKSM5Ov31VL6Tgjw00cdE2Sz5QNe3Xq/VS99Gn057uW5YABtRHXUPKo7iXPkq3/kxvJ4Z+yho0p5oIaw==
+eslint-config-txo-package-react@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-react/-/eslint-config-txo-package-react-1.0.7.tgz#a8e368fe1235a4d3a782a0b27656141065312ae2"
+  integrity sha512-7kjrzechW+syI7K2GTsWN0K7QwunosCcRjBh75x5cOMuSVjnWiYeVTtGJ4cXzMTd67ieKIW6rOvTNmmfxqD74A==
   dependencies:
-    eslint-config-txo-typescript "^7.2.5"
+    eslint-config-txo-typescript "^7.2.7"
     eslint-config-txo-typescript-react "^3.0.6"
 
 eslint-config-txo-typescript-react@^3.0.6:
@@ -3108,13 +3108,13 @@ eslint-config-txo-typescript-react@^3.0.6:
     eslint-plugin-react "^7.37.2"
     eslint-plugin-react-hooks "^5.0.0"
 
-eslint-config-txo-typescript@^7.2.5:
-  version "7.2.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.2.5.tgz#a57009bd754e427cd491d3708f262c6d28bdbd1d"
-  integrity sha512-IEmhU2i8Y8EGTTHSsLEztdDKqrQI/NyBkS3N7c5iOj8qVc+6EQ6HR8mQMmDjjW+d6K8MA4PcFXlhrxeh5E4Sjg==
+eslint-config-txo-typescript@^7.2.7:
+  version "7.2.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.2.7.tgz#1923f3bee6d1f6697eb865595c92103343fab7a9"
+  integrity sha512-1npqOJM9d5lqBRvQxQx5+eGr/i2T2V+VoOZbdZVEfRZPVO8kz/8OKHkeXuJQMca/96Eyl6+clx5kRBMukCb0bw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.4.1"
-    "@stylistic/eslint-plugin" "^2.12.0"
+    "@stylistic/eslint-plugin" "^2.12.1"
     "@typescript-eslint/utils" "^8.18.0"
     eslint "^9.16.0"
     eslint-config-love "^110.0.0"
