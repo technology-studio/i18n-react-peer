@@ -1,4 +1,3 @@
-/* eslint-disable import/no-named-as-default-member */
 /**
  * @Author: Erik Slovák <erik.slovak@technologystudio.sk>
  * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
