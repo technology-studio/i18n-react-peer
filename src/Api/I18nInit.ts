@@ -1,4 +1,3 @@
-/* eslint-disable import/no-named-as-default-member */
 /**
  * @Author: Erik Slovak <erik.slovak@technologystudio.sk>
  * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
@@ -22,7 +21,7 @@ import { configManager } from './Config'
 // const log = new Log('app.Modules.I18n.i18next') // eslint-disable-line no-unused-vars
 
 declare module 'i18next' {
-  // eslint-disable-next-line @typescript-eslint/naming-convention
+  // eslint-disable-next-line @typescript-eslint/naming-convention -- i18n is interface in i18next library
   interface i18n {
     toNumber: (number: number, format: Record<string, unknown>) => string,
   }

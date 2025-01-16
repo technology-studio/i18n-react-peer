@@ -3,10 +3,8 @@ import numbro from 'numbro'
 
 import { configManager } from './Config'
 
-// eslint-disable-next-line import/no-named-as-default-member
 const originalT = i18next.t
 
-// eslint-disable-next-line import/no-named-as-default-member
 i18next.t = function (...arg: Parameters<typeof originalT>) {
   const translation = originalT(...arg)
   return typeof translation === 'string'
