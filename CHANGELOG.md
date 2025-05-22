@@ -1,3 +1,10 @@
+## [4.0.67](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.66...v4.0.67) (2025-05-22)
+
+
+### Bug fixes
+
+* **deps:** update dependency react-i18next to ^15.5.2 ([#1009](https://github.com/technology-studio/i18n-react-peer/issues/1009)) ([b924576](https://github.com/technology-studio/i18n-react-peer/commit/b9245767a8128a8ce8c99eb0014971bc3c2f0669))
+
 ## [4.0.66](https://github.com/technology-studio/i18n-react-peer/compare/v4.0.65...v4.0.66) (2025-04-23)
 
 
