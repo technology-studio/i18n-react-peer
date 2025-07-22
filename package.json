@@ -1,6 +1,6 @@
 {
   "name": "@txo-peer-dep/i18n-react",
-  "version": "4.0.69",
+  "version": "4.0.70",
   "description": "Technology Studio - I18n react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
